@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002500d7-758a-4d3c-97a8-34473ff2eefc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calcparser.iml" afterPath="$PROJECT_DIR$/calcparser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Multiplication.java" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Multiplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Subtraction.java" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Subtraction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java" afterPath="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java" afterPath="$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,13 +31,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcParser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalcParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="472">
+              <caret line="51" column="52" lean-forward="true" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Addition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,36 +73,11 @@
       <file leaf-file-name="TestCalcParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Division.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -100,14 +102,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Subtraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Multiplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Subtraction.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java" />
       </list>
     </option>
   </component>
@@ -396,40 +398,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCalcParser - 2017.12.19 at 13h 49m 53s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 45m 16s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 14h 27m 30s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 47m 56s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 14h 28m 16s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 48m 42s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 14h 29m 28s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 50m 37s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 14h 51m 07s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 51m 33s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 14h 52m 47s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 52m 08s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 14h 53m 02s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 53m 42s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 15h 07m 43s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 56m 27s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser - 2017.12.19 at 15h 10m 26s.xml">
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 58m 08s.xml">
       <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCalcParser_testParsingExpression - 2017.12.19 at 15h 00m 04s.xml">
-      <configuration name="TestCalcParser.testParsingExpression" configurationId="JUnit" />
+    <history-entry file="TestCalcParser - 2017.12.20 at 11h 58m 32s.xml">
+      <configuration name="TestCalcParser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -444,7 +445,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -463,76 +464,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#153#154#0" expanded="false" />
-            <element signature="e#202#203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Multiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Subtraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#156#157#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,12 +486,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Subtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#226#227#0" expanded="false" />
+            <element signature="e#275#276#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_121/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1954" column="0" lean-forward="false" selection-start-line="1954" selection-start-column="0" selection-end-line="1954" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/dolgov/calcparser/TestCalcParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/parser/CalcParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="51" column="52" lean-forward="true" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dolgov/calcparser/operators/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
