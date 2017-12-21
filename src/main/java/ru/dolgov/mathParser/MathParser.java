@@ -1,4 +1,4 @@
-package ru.dolgov.calcparser.mathParser;
+package ru.dolgov.mathParser;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
