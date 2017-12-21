@@ -1,4 +1,4 @@
-package ru.dolgov.mathParser;
+package ru.dolgov.mathparser;
 
 public class Result {
     private double result;

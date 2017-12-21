@@ -3,7 +3,6 @@ package ru.dolgov.mathparser;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import ru.dolgov.mathParser.MathParser;
 
 public class TestMathParser {
     MathParser mathParser;
